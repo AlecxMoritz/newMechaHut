@@ -1,0 +1,226 @@
+body {
+    background-repeat: repeat;
+    background-image: url("metalBackground2.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1300px) {
+    div.saleBoxOne {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 1600px) {
+    div.saleBoxTwo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    div.saleBoxThree {
+        display: none;
+    }
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(112, 23, 112);
+    text-decoration: underline;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+.header {
+    background:  rgb(59, 59, 59);
+    width: 80%;
+    float: right;
+    border-radius: 5%;
+    box-shadow: 5px 15px 7px rgb(155, 155, 155);
+}
+
+.header h1 {
+    color:  rgb(192, 192, 192);
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+    text-indent: 50px;
+}
+
+.container {
+    min-height: 100%;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.navBar {
+    background:  rgb(71, 71, 71);
+    float: left;
+    position: relative;
+    font-size: 30px;
+    padding: 5px;
+    width: 20%;
+    top: 300px;
+    left: 50px;
+    margin: 30px;
+    height: 500px;
+    display: block;
+    min-width: 10%;
+    border-radius: 17%;
+    box-shadow: 5px 10px 7px rgb(155, 155, 155);
+}
+
+
+#navBar a {
+    color: rgb(192, 192, 192);
+}
+
+
+#navBar {
+    list-style-type: none;
+
+}
+
+#signupLogin a {
+    color:  rgb(192, 192, 192);
+}
+
+#signupLogin {
+    list-style-type: none;
+}
+.flexBox {
+    background:  rgb(71, 71, 71);
+    width: 50%;
+    height: 70%;
+    float: right;
+    border-radius: 5%;
+    position: relative;
+    top: 75px;
+    right: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    padding: 10px;
+    box-shadow: 5px 10px 7px rgb(155, 155, 155);
+}
+
+
+/* flex boxes */
+
+.saleBoxOne {
+    border-radius: 17%;
+    display: flex;
+    max-width: 40%;
+    height: 35%;
+    background-color: transparent;
+    margin: 5%;
+}
+
+img.eaglePrime {
+    border-radius: 5%;
+    right: 25%;
+    position: relative;
+}
+
+.saleBoxTwo {
+    border-radius: 17%;
+    display: flex;
+    width: 40%;
+    max-width: 40%;
+    height: 35%;
+    background-color: transparent;
+    margin: 5%;
+}
+
+img.gundam {
+    width: 650px;
+    height: 900px;
+    border-radius: 5%;
+    position: relative;
+    right: 150px;
+}
+
+.saleBoxThree {
+    border-radius: 17%;
+    display: flex;
+    width: 50%;
+    height: 35%;
+    background-color: transparent;
+    margin: 5%;
+}
+
+
+img.kuratas {
+    border-radius: 5%;
+    position: relative;
+    right: 110px;
+}
+
+.textBoxOne {
+    display: flex;
+    border-radius: 17%;
+    width: 93%;
+    height: 40%;
+    background-color: rgb(65, 65, 65);
+    margin: auto;
+    padding: 10px;
+}
+
+.textBoxTwo {
+    display: flex;
+    border-radius: 17%;
+    width: 93%;
+    height: 30%;
+    background-color: rgb(65, 65, 65);
+    margin: auto;
+    padding: 10px;
+}
+
+.textBoxThree {
+    border-radius: 17%;
+    display: flex;
+    width: 93%;
+    height: 20%;
+    background-color:rgb(65, 65, 65);
+    margin: auto;
+}
+
+.blogPost {
+    background-color:  rgb(71, 71, 71);
+    width: 20%;
+    height: 80%;
+    word-wrap: wrap;
+    float: left;
+    position: relative;
+    top: 500px;
+    bottom: 25px;
+    padding: 1%;
+    margin: 5%;
+    max-height: 80%;
+    max-width: 90%;
+    border-radius: 5%;
+    box-shadow: 5px 10px 7px rgb(155, 155, 155);
+}
+
+.footer {
+    background:  rgb(78, 78, 78);
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15%;
+}
