@@ -124,7 +124,7 @@ p {
     border-radius: 17%;
     display: flex;
     max-width: 40%;
-    height: 35%;
+    height: 30%;
     background-color: transparent;
     margin: 5%;
 }
@@ -146,8 +146,8 @@ img.eaglePrime {
 }
 
 img.gundam {
-    width: 650px;
-    height: 900px;
+    width: 700px;
+    height: 800px;
     border-radius: 5%;
     position: relative;
     right: 150px;
