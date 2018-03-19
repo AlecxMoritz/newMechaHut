@@ -10,7 +10,7 @@ body {
     }
   }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1500px) {
     div.saleBoxTwo {
         display: none;
     }
@@ -150,7 +150,7 @@ img.gundam {
     height: 800px;
     border-radius: 5%;
     position: relative;
-    right: 150px;
+    right: 200px;
 }
 
 .saleBoxThree {
